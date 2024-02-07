@@ -1,5 +1,6 @@
 package revision
-
+import revision.lib.Fundamentals
 fun main() {
-    println("hello world!")
+    val fundamentals = Fundamentals()
+    fundamentals.hello("Kotlin!")
 }
